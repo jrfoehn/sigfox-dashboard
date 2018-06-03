@@ -1,30 +1,44 @@
-# sigfox-dashboard
+# Sigfox Dashboard
 
-> A single page application dashboard to display Sigfox mess
+> A simple dashboard to display Sigfox Device Data for demo or education
 
-## Build Setup
+#### Current Version
 
-``` bash
-# install dependencies
-npm install
+For now only Thinxtra's Xkit Data is supported.
+I will add more devices (Sensits, etc) in the future.
 
-# serve with hot reload at localhost:8080
-npm run dev
+Feel free to contribute!
 
-# build for production with minification
-npm run build
+## Getting started
 
-# build for production and view the bundle analyzer report
-npm run build --report
+Enter your Sigfox API credentials and the Sigfox Device ID
+![Credentials Screenshot](./docs/credentials.png?raw=true)
 
-# run unit tests
-npm run unit
+Enjoy your Sigfox data!
+![Data Screenshot](./docs/data.png?raw=true)
 
-# run e2e tests
-npm run e2e
+##Installation
 
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Build Setup
+    
+    bash
+    # install dependencies
+    npm install
+    
+    # serve with hot reload at localhost:8080
+    npm run dev
+    
+    # build for production with minification
+    npm run build
+    
+    # build for production and view the bundle analyzer report
+    npm run build --report
+    
+    # run unit tests
+    npm run unit
+    
+    # run e2e tests
+    npm run e2e
+    
+    # run all tests
+    npm test
